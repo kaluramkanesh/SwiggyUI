@@ -1,0 +1,39 @@
+{
+    "restaurant":[
+        {
+            "id":1,
+            "name":"Pizza hut",
+            "address":"Khandwa",
+            "rating":"4.5",
+            "email":"khandwa@gmail.com"
+        },
+        {
+            "id":2,
+            "name":"MacDonald",
+            "address":"Indore",
+            "rating":"4.9",
+            "email":"indore@gmail.com"
+        },
+        {
+            "id":3,
+            "name":"Keshar",
+            "address":"Khandwa",
+            "rating":"4.7",
+            "email":"kesharhotel@gmail.com"
+        },
+        {
+            "id":4,
+            "name":"Cheslin",
+            "address":"Khandwa",
+            "rating":"4.4",
+            "email":"cheslin@gmail.com"
+        },
+        {
+            "id":5,
+            "name":"Barbeque Nation",
+            "address":"Bhopal",
+            "rating":"5",
+            "email":"barbequenation@gmail.com"
+        }
+    ]
+}
