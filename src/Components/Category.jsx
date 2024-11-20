@@ -5,7 +5,7 @@ function Category() {
     const [slide, setSlide] = useState(1)
     const [categories, setCategory] = useState([])
     const fetchCategory = async () => {
-        const response = await fetch("http://localhost:3000/images/get/restaurent")
+        const response = await fetch("https://swiggy-api-s-production.up.railway.app/images/get/restaurent")
         const data = await response.json()
         // console.log(data)
         setCategory(data)

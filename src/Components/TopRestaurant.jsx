@@ -5,7 +5,7 @@ import Card from "./Card";
 function TopRestaurant() {
     const [data, setData] = useState([])
     const fetchTopRestaurant = async () => {
-        const response = await fetch("http://localhost:3000/top/restaurent/chain")
+        const response = await fetch("https://swiggy-api-s-production.up.railway.app/top/restaurent/chain")
         const apiData = await response.json()
         setData(apiData)
     }
